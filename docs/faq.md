@@ -5,8 +5,8 @@ description: Answers to questions we expect about Mojo.
 ---
 
 We tried to anticipate your questions about Mojo on this page. If this page
-doesn't answer all your questions, also check out our [Mojo community
-channels](/mojo/community).
+doesn't answer all your questions, also check out our [community
+channels](https://www.modular.com/community).
 
 ## Motivation
 
@@ -44,7 +44,7 @@ it’s missing. We are guided more by pragmatism than novelty, but Mojo’s use 
 and domains in a way that other languages haven’t demonstrated (for an example
 of Mojo talking directly to MLIR, see our [low-level IR in Mojo
 notebook](/mojo/notebooks/BoolMLIR)). It also
-includes autotuning, and has caching and distributed compilation built into its
+has caching and distributed compilation built into its
 core. We also believe Mojo has a good chance of unifying hybrid packages in the
 broader Python community.
 
@@ -210,12 +210,6 @@ means that Mojo is easily extensible to any hardware backend. For more
 information, read about our vision for [pluggable
 hardware](https://www.modular.com/hardware).
 
-### How does Mojo autotuning work?
-
-For details about what autotuning capabilities we support so far, check out
-the Mojo Manual section on [metaprogramming](/mojo/manual/parameters/).
-But stay tuned for more details!
-
 ### Who writes the software to add more hardware support for Mojo?
 
 Mojo provides all the language functionality necessary for anyone to extend
@@ -276,7 +270,11 @@ dashboard](https://www.modular.com/max/performance).
 
 ### How can I get access to the SDK?
 
-You can [get the Mojo SDK here](https://developer.modular.com/download)!
+Mojo is included with the MAX SDK, which you can [download and use for
+free](/max/install).
+
+Read more about [why Mojo is bundled with
+MAX](/max/faq#why-bundle-mojo-with-max).
 
 ### Is the Mojo Playground still available?
 
@@ -308,14 +306,6 @@ and does not require login.
 ### What are the license terms for the SDK?
 
 Please read the [Mojo SDK License Terms](https://www.modular.com/legal/mojo).
-
-### What does the Mojo SDK ship with?
-
-The Mojo SDK includes the Mojo standard library and `mojo` command-line tool,
-which provides a REPL similar to the `python` command, along with `build`,
-`run`, `package`, `doc` and `format` commands. We've also published a [Mojo
-language extension for VS
-Code](https://marketplace.visualstudio.com/items?itemName=modular-mojotools.vscode-mojo).
 
 ### What operating systems are supported?
 
@@ -389,20 +379,6 @@ Please join the [Mojo Discord channel](http://discord.gg/modular) for
 notifications and [sign up for our newsletter](https://www.modular.com/newsletter)
 for more coarse-grain updates.
 
-## Mojo Playground {#mojo-playground}
-
-### What sort of computer is backing each instance in the Mojo Playground?
-
-The Mojo Playground runs on a fleet of [AWS EC2
-C6i](https://aws.amazon.com/ec2/instance-types/c6i/) (c6i.8xlarge) instances
-that is divided among active users. Due to the shared nature of the system, the
-number of vCPU cores provided to your session may vary. We guarantee 1 vCPU
-core per session, but that may increase when the total number of active users is
-low.
-
-Each user also has a dedicated volume in which you can save your own files that
-persist across sessions.
-
 ## Open Source
 
 ### Will Mojo be open-sourced?
@@ -429,4 +405,4 @@ provides important information about our current priorities and links to
 our GitHub channels where you can report issues and discuss new features.
 
 To get in touch with the Mojo team and developer community, use the resources
-on our [Mojo community page](/mojo/community).
+on our [community page](https://www.modular.com/community).

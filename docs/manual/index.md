@@ -18,13 +18,13 @@ Mojo](/mojo/why-mojo).
 Beware that Mojo is still a very young language, so there's a lot that hasn't
 been built yet. Likewise, there's a lot of documentation that hasn't been
 written yet. But we're excited to share Mojo with you and [get your
-feedback](/mojo/community).
+feedback](https://www.modular.com/community).
 
 ## Contents
 
 - **Get started**
 
-  - [Why Mojo](/mojo/manual/why-mojo)
+  - [Why Mojo](/mojo/why-mojo)
   - [Get started with Mojo](/mojo/manual/get-started)
 
 - **Language basics**
@@ -39,20 +39,20 @@ feedback](/mojo/community).
 
 - **Value ownership**
 
-  - [Intro to value ownership](/mojo/manual/values/index)
+  - [Intro to value ownership](/mojo/manual/values/)
   - [Value semantics](/mojo/manual/values/value-semantics)
   - [Ownership and borrowing](/mojo/manual/values/ownership)
 
 - **Value lifecycle**
 
-  - [Intro to value lifecycle](/mojo/manual/lifecycle/index)
+  - [Intro to value lifecycle](/mojo/manual/lifecycle/)
   - [Life of a value](/mojo/manual/lifecycle/life)
   - [Death of a value](/mojo/manual/lifecycle/death)
 
 - **Traits and parameters**
 
   - [Traits](/mojo/manual/traits)
-  - [Parameterization: compile-time metaprogramming](/mojo/manual/parameters/index)
+  - [Parameterization: compile-time metaprogramming](/mojo/manual/parameters/)
 
 - **Pointers**
 
@@ -60,7 +60,7 @@ feedback](/mojo/community).
 
 - **Python**
 
-  - [Python integration](/mojo/manual/python/index)
+  - [Python integration](/mojo/manual/python/)
   - [Python types](/mojo/manual/python/types)
 
 - **Tools**
@@ -73,4 +73,3 @@ feedback](/mojo/community).
   - [Roadmap and sharp edges](/mojo/roadmap)
   - [Changelog](/mojo/changelog)
   - [FAQ](/mojo/faq)
-  - [Community](/mojo/community)
